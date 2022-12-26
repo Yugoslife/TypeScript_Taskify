@@ -7,7 +7,7 @@ interface Props {
   setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
 }
 
-const TodoList: React.FC = ({ todos, setTodos }: Props) => {
+const TodoList: React.FC<Props> = ({ todos, setTodos }) => {
   return (
     <div className="todos">
       {todos.map((todo) => (
