@@ -15,6 +15,7 @@ const InputFeild: React.FC<Props> = ({ todo, setTodo, handleAdd }) => {
       className="input"
       onSubmit={(e) => {
         handleAdd(e);
+        inputRef.current?.blur();
       }}
     >
       <input

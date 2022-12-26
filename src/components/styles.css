@@ -43,3 +43,10 @@ background-color: rgb(126, 198, 240);
 transform: scale(0.7);
 box-shadow: 0 0 5px rgb(37, 37, 37);
 }
+
+.todos {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  flex-wrap: wrap;
+}
